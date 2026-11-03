@@ -1,5 +1,7 @@
 # Project 3 — Guardrails API
 
+**Detailed guide:** [PROJECT_EXPLANATION.md](./PROJECT_EXPLANATION.md) · [PROJECT_EXPLANATION.docx](./PROJECT_EXPLANATION.docx)
+
 **Goal:** Safety layer before/after an LLM — block risky **inputs**, validate **outputs**, enforce **schema**.
 
 ## What this demonstrates

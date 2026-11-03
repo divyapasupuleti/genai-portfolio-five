@@ -1,6 +1,9 @@
 # GenAI Portfolio — 5 Hire-Ready Projects
 
-Five small, production-style demos aligned with common **2025–2026 AI portfolio** reels (RAG, fine-tuning, guardrails, agents, evals). Each folder is self-contained with its own **README** and **run commands**.
+Five small, production-style demos aligned with common **2025–2026 AI portfolio** reels (RAG, fine-tuning, guardrails, agents, evals). Each folder is self-contained with:
+
+- **README.md** — quick start and commands  
+- **PROJECT_EXPLANATION.md** — detailed architecture, operations, and interview notes  
 
 | # | Project | Folder | One-line |
 |---|---------|--------|----------|

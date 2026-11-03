@@ -1,5 +1,7 @@
 # Project 5 — Eval Harness (Golden Set)
 
+**Detailed guide:** [PROJECT_EXPLANATION.md](./PROJECT_EXPLANATION.md) · [PROJECT_EXPLANATION.docx](./PROJECT_EXPLANATION.docx)
+
 **Goal:** **Regression tests** for AI quality before each release — same idea as **RAGAS/deepeval/CI gates**.
 
 ## What this demonstrates

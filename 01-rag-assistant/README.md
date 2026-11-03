@@ -1,5 +1,7 @@
 # Project 1 — RAG Assistant with Citations
 
+**Detailed guide:** [PROJECT_EXPLANATION.md](./PROJECT_EXPLANATION.md) · [PROJECT_EXPLANATION.docx](./PROJECT_EXPLANATION.docx)
+
 **Goal:** Internal knowledge Q&A — ingest documents, retrieve relevant chunks, generate grounded answers with **source citations**.
 
 ## What this demonstrates (interviews)

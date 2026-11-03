@@ -1,5 +1,7 @@
 # Project 2 — LoRA Fine-Tuning (PEFT)
 
+**Detailed guide:** [PROJECT_EXPLANATION.md](./PROJECT_EXPLANATION.md) · [PROJECT_EXPLANATION.docx](./PROJECT_EXPLANATION.docx)
+
 **Goal:** Show you can **adapt an open model** for a specific task cheaper than prompt-only — using **LoRA** on a small LM.
 
 ## What this demonstrates

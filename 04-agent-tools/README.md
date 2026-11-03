@@ -1,5 +1,7 @@
 # Project 4 — Tool-Using Agent
 
+**Detailed guide:** [PROJECT_EXPLANATION.md](./PROJECT_EXPLANATION.md) · [PROJECT_EXPLANATION.docx](./PROJECT_EXPLANATION.docx)
+
 **Goal:** **Agent** that plans and **calls tools** (calculator, time, internal KB) — ReAct / function-calling pattern.
 
 ## What this demonstrates
