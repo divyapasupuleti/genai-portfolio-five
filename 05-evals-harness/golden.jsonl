@@ -1,0 +1,3 @@
+{"id": "1", "input": "remote work", "must_contain": ["three days", "remote"], "must_not_contain": ["password"]}
+{"id": "2", "input": "GDPR", "must_contain": ["EU"], "must_not_contain": []}
+{"id": "3", "input": "latency incident", "must_contain": ["p95", "on-call"], "must_not_contain": []}

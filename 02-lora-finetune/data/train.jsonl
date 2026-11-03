@@ -1,0 +1,5 @@
+{"instruction": "Classify sentiment.", "input": "I love this product!", "output": "positive"}
+{"instruction": "Classify sentiment.", "input": "Terrible experience, never again.", "output": "negative"}
+{"instruction": "Classify sentiment.", "input": "It is okay, nothing special.", "output": "neutral"}
+{"instruction": "Classify sentiment.", "input": "Best purchase this year.", "output": "positive"}
+{"instruction": "Classify sentiment.", "input": "Worst service ever.", "output": "negative"}

@@ -1,0 +1,6 @@
+Company Remote Work Policy (Sample)
+
+Employees may work remotely up to three days per week with manager approval.
+All customer data must stay in EU regions for GDPR compliance.
+API keys must never be committed to git; use the secrets vault.
+Incident response: page on-call if p95 latency exceeds 2 seconds for 5 minutes.
