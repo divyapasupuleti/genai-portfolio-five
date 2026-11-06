@@ -1,5 +1,7 @@
 # Project 4 — Tool-Using Agent
 
+Part of the [agentic capstone](../00-capstone-agentic-rag) story (optional tool step after RAG).
+
 **Detailed guide:** [PROJECT_EXPLANATION.md](./PROJECT_EXPLANATION.md) · [PROJECT_EXPLANATION.docx](./PROJECT_EXPLANATION.docx)
 
 **Goal:** **Agent** that plans and **calls tools** (calculator, time, internal KB) — ReAct / function-calling pattern.

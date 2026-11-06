@@ -1,5 +1,7 @@
 # Project 5 — Eval Harness (Golden Set)
 
+![Golden evals CI](https://github.com/divyapasupuleti/genai-portfolio-five/actions/workflows/golden-evals.yml/badge.svg)
+
 **Detailed guide:** [PROJECT_EXPLANATION.md](./PROJECT_EXPLANATION.md) · [PROJECT_EXPLANATION.docx](./PROJECT_EXPLANATION.docx)
 
 **Goal:** **Regression tests** for AI quality before each release — same idea as **RAGAS/deepeval/CI gates**.
@@ -26,11 +28,13 @@ python run_evals.py
 echo $?   # 0 = all pass
 ```
 
-## CI example
+## CI
 
-```yaml
-- name: AI golden evals
-  run: python genai-portfolio-five/05-evals-harness/run_evals.py
+Runs on every push via [`.github/workflows/golden-evals.yml`](../.github/workflows/golden-evals.yml):
+
+```bash
+python 05-evals-harness/run_evals.py
+python 00-capstone-agentic-rag/orchestrate.py --run-evals   # same gate from capstone
 ```
 
 ## Extend

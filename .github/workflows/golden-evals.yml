@@ -1,0 +1,32 @@
+name: Golden evals
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "05-evals-harness/**"
+      - "00-capstone-agentic-rag/**"
+      - ".github/workflows/golden-evals.yml"
+  pull_request:
+    branches: [main]
+    paths:
+      - "05-evals-harness/**"
+      - "00-capstone-agentic-rag/**"
+  workflow_dispatch:
+
+jobs:
+  evals:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Run golden-set eval harness
+        run: python 05-evals-harness/run_evals.py
+      - name: Capstone orchestrator smoke
+        run: python 00-capstone-agentic-rag/orchestrate.py "What is our remote work policy?"
+      - name: Production API patterns tests
+        run: |
+          pip install -r 06-production-api-patterns/requirements.txt
+          pytest -q 06-production-api-patterns

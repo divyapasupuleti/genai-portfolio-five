@@ -1,17 +1,22 @@
-# GenAI Portfolio — 5 Hire-Ready Projects
+# GenAI Portfolio — Hire-Ready Projects (Ireland / Agentic AI / FDE)
 
-Five small, production-style demos aligned with common **2025–2026 AI portfolio** reels (RAG, fine-tuning, guardrails, agents, evals). Each folder is self-contained with:
+![Golden evals CI](https://github.com/divyapasupuleti/genai-portfolio-five/actions/workflows/golden-evals.yml/badge.svg)
 
-- **README.md** — quick start and commands  
-- **PROJECT_EXPLANATION.md** — detailed architecture, operations, and interview notes  
+Production-style demos for **Agentic AI Lead**, **Forward Deployed AI**, and **production LLM** interviews. Each folder has **README.md** + **PROJECT_EXPLANATION.md**.
+
+**Start here:** [00-capstone-agentic-rag](./00-capstone-agentic-rag) — guardrails → RAG → eval gate (one story for recruiters).
 
 | # | Project | Folder | One-line |
 |---|---------|--------|----------|
+| 0 | **Agentic RAG capstone** | [00-capstone-agentic-rag](./00-capstone-agentic-rag) | End-to-end pipeline + trace id + CI evals |
 | 1 | **RAG** with citations | [01-rag-assistant](./01-rag-assistant) | Ingest docs → retrieve → answer with sources |
 | 2 | **LoRA fine-tuning** | [02-lora-finetune](./02-lora-finetune) | PEFT fine-tune a small LM on a custom JSONL task |
 | 3 | **Guardrails** | [03-guardrails-api](./03-guardrails-api) | Block unsafe I/O + validate structured responses |
 | 4 | **Tool-using agent** | [04-agent-tools](./04-agent-tools) | Plan → call tools → answer (OpenAI optional) |
 | 5 | **Eval harness** | [05-evals-harness](./05-evals-harness) | Golden-set regression tests before release |
+| 6 | **Production API patterns** | [06-production-api-patterns](./06-production-api-patterns) | FastAPI + cache + trace id + pytest |
+
+**GitHub profile setup:** [GITHUB-PIN-AND-DEPLOY.md](./GITHUB-PIN-AND-DEPLOY.md) · Profile README template in [../github-profile/README.md](../github-profile/README.md)
 
 ## Quick start (all projects)
 

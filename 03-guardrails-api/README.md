@@ -1,5 +1,7 @@
 # Project 3 — Guardrails API
 
+Used in [00-capstone-agentic-rag](../00-capstone-agentic-rag) for input/output policy before/after generation.
+
 **Detailed guide:** [PROJECT_EXPLANATION.md](./PROJECT_EXPLANATION.md) · [PROJECT_EXPLANATION.docx](./PROJECT_EXPLANATION.docx)
 
 **Goal:** Safety layer before/after an LLM — block risky **inputs**, validate **outputs**, enforce **schema**.
